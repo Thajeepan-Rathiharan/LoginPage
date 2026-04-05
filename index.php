@@ -28,7 +28,7 @@
       $_SESSION['login'] = $user.$pass; 
         header("Location: ../home"); 
       }else{
-      echo '<br><br><center><h5>Test</h5>';
+      echo '<br><br><center><h5>Please make sure your username and credentials are correct.</h5>'; //Message that is returned when a user does not login with the correct credentials. Example on 'config.php' file.
       }
     } 
   ?>

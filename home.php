@@ -17,7 +17,7 @@
         <p>Check back later for updates.</p>
 
         <!-- Logout button. -->
-        <form action="logout.php" method="post">
+        <form action="index.php" method="post">
             <button type="submit" class="logout-btn">Logout</button>
         </form>
     </main>

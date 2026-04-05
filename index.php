@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Login</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="Assets/Bootstrap/CSS/bootstrap/css">
+    <!-- My CSS stylesheet -->
     <link rel="stylesheet" href="Assets/MyCSS/style.css">
 </head>
 
@@ -59,8 +58,7 @@
 ?>
 
 <!-- Bootstrap JS -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="Assets/Bootstrap/JS/bootstrap.js"></script>
 
 </body>
 </html>

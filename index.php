@@ -26,7 +26,7 @@
             $password = $_POST["password1"]; 
         if ($benutzer == $user and $password == $pass) { 
       $_SESSION['login'] = $user.$pass; 
-        header("Location: ../home.php"); 
+        header("Location: home.php"); 
       }else{
       echo '<br><br><center><h5>Please make sure your username and credentials are correct.</h5>'; //Message that is returned when a user does not login with the correct credentials. Example on 'config.php' file.
       }

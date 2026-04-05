@@ -113,3 +113,17 @@ body {
     text-align: center;
     padding: 15px 0;
 }
+/* Logout button */
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f4476b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #eb3b60;
+}

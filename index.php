@@ -25,7 +25,7 @@
       $_SESSION['login'] = $user.$pass; 
         header("Location: ../home"); 
       }else{
-      echo '<br><br><center><h5>Falsche Daten</h5>';
+      echo '<br><br><center><h5>Test</h5>';
       }
     } 
   ?>
@@ -35,7 +35,7 @@
         <form method="post">
             <h2 class="sr-only">Login Form</h2>
             <div class="illustration"><i class="icon ion-ios-navigate" style="color: #f7e859;"></i></div>
-            <div class="form-group"><input class="form-control" type="text" name="user1" placeholder="Benutzer"></div>
+            <div class="form-group"><input class="form-control" type="text" name="user1" placeholder="Username"></div>
             <div class="form-group"><input class="form-control" type="password" name="password1" placeholder="Password"></div>
             <div class="form-group"><button class="btn btn-primary btn-block" type="submit" name="submit" value="OK" style="background-color: #f7e859;">Log In</button></div>
         </form>
